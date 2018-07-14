@@ -64,5 +64,11 @@ FlaskBB is licensed under the [BSD License](https://github.com/sh4nks/flaskbb/bl
 * editorconfig 编辑器统一代码风格
 * https://pypi.org python包的资源
 * gitmodules 项目中使用了其他的git仓库资源，保持互相独立
+* landscape https://landscape.canonical.com/landscape-features
+主要是用于管理多台ubuntu服务器的配置
+* travis 测试和部署项目的最简单的方法 github和travis项目同步 您将在几分钟内测试代码 [https://www.travis-ci.org/](https://www.travis-ci.org/)
+* tox.ini tox是通用的虚拟环境管理和测试命令行工具。tox能够让我们在同一个Host上自定义出多套相互独立且隔离的python环境（tox是openstack社区最基本的测试工具，比如python程序的兼容性、UT等）。
+* flaskbb的命令的出处 setup.py 中的 entry_points console.scripts  flaskbb.cli.flaskbb
+
 
 
